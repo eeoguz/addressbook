@@ -16,3 +16,9 @@ UI icin: http://localhost:3000
 #### uygulamadan docker image olustumak icin
 
     docker build -t my-app:1.0 .       
+
+#### heruko ile servis icin;
+
+    heroku container:login
+    heroku container:push web
+    heroku container:release web
